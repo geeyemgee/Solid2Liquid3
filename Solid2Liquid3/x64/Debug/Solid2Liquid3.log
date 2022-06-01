@@ -1,0 +1,26 @@
+﻿  BinaryExpression.cpp
+  Lexer.cpp
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Lexer.h(18,1): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+  NumericConstant.cpp
+  RDParser.cpp
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Lexer.h(18,1): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\RDParser.cpp(52,21): error C2440: 'initializing': cannot convert from 'int' to 'Expr &'
+  Solid2Liquid3.cpp
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Lexer.h(18,1): warning C4267: '=': conversion from 'size_t' to 'long', possible loss of data
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(30,24): error C2259: 'StackEvaluator': cannot instantiate abstract class
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\StackEvaluator.h(11): message : see declaration of 'StackEvaluator'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(30,24): message : due to following members:
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(30,24): message : 'double IExprVisitor::Visit(UnaryExpression *)': is abstract
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\IExprVisitor.h(13): message : see declaration of 'IExprVisitor::Visit'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(30,24): message : 'double IExprVisitor::Visit(BinaryExpression *)': is abstract
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\IExprVisitor.h(12): message : see declaration of 'IExprVisitor::Visit'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(30,24): message : 'double IExprVisitor::Visit(NumericConstant *)': is abstract
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\IExprVisitor.h(11): message : see declaration of 'IExprVisitor::Visit'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(31,10): error C2440: '=': cannot convert from 'StackEvaluator **' to 'IExprVisitor *'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(31,7): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Solid2Liquid3.cpp(32,14): error C2664: 'double Expr::Accept(IExprVisitor &)': cannot convert argument 1 from 'IExprVisitor *' to 'IExprVisitor &'
+C:\Users\DELL\source\repos\Solid2Liquid3\Solid2Liquid3\Expr.h(9,17): message : see declaration of 'Expr::Accept'
+  StackEvaluator.cpp
+  TreeEvaluator.cpp
+  UnaryExpression.cpp
+  Generating Code...
